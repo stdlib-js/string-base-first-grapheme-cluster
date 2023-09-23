@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import firstGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-grapheme-cluster@esm/index.mjs';
+import firstGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-grapheme-cluster@v0.1.0-esm/index.mjs';
 ```
 
 #### firstGraphemeCluster( str, n )
@@ -79,7 +79,7 @@ out = firstGraphemeCluster( 'foo bar', 10 );
 <body>
 <script type="module">
 
-import firstGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-grapheme-cluster@esm/index.mjs';
+import firstGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-grapheme-cluster@v0.1.0-esm/index.mjs';
 
 var str = firstGraphemeCluster( 'presidential election', 1 );
 // returns 'p'
