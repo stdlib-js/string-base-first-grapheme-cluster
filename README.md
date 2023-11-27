@@ -35,14 +35,30 @@ limitations under the License.
 
 > Return the first `n` grapheme clusters (i.e., user-perceived characters) of a string.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-first-grapheme-cluster
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import firstGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-grapheme-cluster@deno/mod.js';
+var firstGraphemeCluster = require( '@stdlib/string-base-first-grapheme-cluster' );
 ```
 
 #### firstGraphemeCluster( str, n )
@@ -74,7 +90,7 @@ out = firstGraphemeCluster( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import firstGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-grapheme-cluster@deno/mod.js';
+var firstGraphemeCluster = require( '@stdlib/string-base-first-grapheme-cluster' );
 
 var str = firstGraphemeCluster( 'presidential election', 1 );
 // returns 'p'
@@ -100,6 +116,14 @@ str = firstGraphemeCluster( '🐶🐮🐷🐰🐸', 10 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/first`][@stdlib/string/base/first]</span><span class="delimiter">: </span><span class="description">return the first UTF-16 code unit of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/first-code-point`][@stdlib/string/base/first-code-point]</span><span class="delimiter">: </span><span class="description">return the first Unicode code point of a string.</span>
+-   <span class="package-name">[`@stdlib/string-first`][@stdlib/string/first]</span><span class="delimiter">: </span><span class="description">return the first character(s) of a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -113,7 +137,7 @@ str = firstGraphemeCluster( '🐶🐮🐷🐰🐸', 10 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -172,6 +196,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/string-base-first-grapheme-cluster/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-first-grapheme-cluster/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/first]: https://github.com/stdlib-js/string-base-first
+
+[@stdlib/string/base/first-code-point]: https://github.com/stdlib-js/string-base-first-code-point
+
+[@stdlib/string/first]: https://github.com/stdlib-js/string-first
+
+<!-- </related-links> -->
 
 </section>
 
